@@ -1,0 +1,8 @@
+<header>
+
+  <h1 class="component-child"> {{title}}</h1>
+  <h2> versione n. {{version}}</h2>
+  <button *ngIf="!username" (click)="login()"> login </button>
+  <h3 *ngIf="username"> Utente: {{username}}</h3>
+
+</header>
